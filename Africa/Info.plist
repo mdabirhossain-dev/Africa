@@ -2,9 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UILaunchImageFile</key>
-	<string>launch-screen-image</string>
 	<key>UILaunchScreen</key>
-	<string></string>
+	<dict>
+		<key>UIColorName</key>
+		<string>launch-screen-color</string>
+		<key>UIImageName</key>
+		<string>launch-screen-image</string>
+	</dict>
 </dict>
 </plist>
