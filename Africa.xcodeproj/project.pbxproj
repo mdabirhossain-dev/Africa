@@ -83,6 +83,9 @@
 		107CE3B829EB6C0900D1B93B /* AfricaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107CE3B729EB6C0900D1B93B /* AfricaTests.swift */; };
 		107CE3C229EB6C0900D1B93B /* AfricaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107CE3C129EB6C0900D1B93B /* AfricaUITests.swift */; };
 		107CE3C429EB6C0900D1B93B /* AfricaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107CE3C329EB6C0900D1B93B /* AfricaUITestsLaunchTests.swift */; };
+		108443E629FC02D000CD8C38 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108443E529FC02D000CD8C38 /* MapAnnotationView.swift */; };
+		108443E729FC02D000CD8C38 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108443E529FC02D000CD8C38 /* MapAnnotationView.swift */; };
+		108443E829FC02D000CD8C38 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108443E529FC02D000CD8C38 /* MapAnnotationView.swift */; };
 		10DDB8CF29EC07FF00C89143 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 10DDB8CB29EC07FE00C89143 /* videos.json */; };
 		10DDB8D029EC07FF00C89143 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 10DDB8CB29EC07FE00C89143 /* videos.json */; };
 		10DDB8D129EC07FF00C89143 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 10DDB8CB29EC07FE00C89143 /* videos.json */; };
@@ -172,6 +175,7 @@
 		107CE3BD29EB6C0900D1B93B /* AfricaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfricaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		107CE3C129EB6C0900D1B93B /* AfricaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaUITests.swift; sourceTree = "<group>"; };
 		107CE3C329EB6C0900D1B93B /* AfricaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		108443E529FC02D000CD8C38 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		10DDB8CB29EC07FE00C89143 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		10DDB8CC29EC07FE00C89143 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		10DDB8CD29EC07FF00C89143 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
@@ -337,6 +341,7 @@
 				1015857929F5A5500044224E /* ExternalWebLinkView.swift */,
 				1015858129F5CAF60044224E /* VideoListItemView.swift */,
 				1015858529F6536D0044224E /* VideoPlayerView.swift */,
+				108443E529FC02D000CD8C38 /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -538,6 +543,7 @@
 				1016A84829F794DB004E05E3 /* LocationModel.swift in Sources */,
 				107CE3A929EB6C0800D1B93B /* ContentView.swift in Sources */,
 				10DDB8EA29EC3A9700C89143 /* MainView.swift in Sources */,
+				108443E629FC02D000CD8C38 /* MapAnnotationView.swift in Sources */,
 				10DDB8E229EC3A3900C89143 /* MapView.swift in Sources */,
 				1015851329F468510044224E /* AnimalDetailView.swift in Sources */,
 				10DDB8EF29EC526F00C89143 /* Comments.swift in Sources */,
@@ -575,6 +581,7 @@
 				1015858C29F684D70044224E /* VideoPlayerHelper.swift in Sources */,
 				1015857729F558890044224E /* InsetMapView.swift in Sources */,
 				10DDB8EB29EC3A9700C89143 /* MainView.swift in Sources */,
+				108443E729FC02D000CD8C38 /* MapAnnotationView.swift in Sources */,
 				1015857B29F5A5500044224E /* ExternalWebLinkView.swift in Sources */,
 				10DDB8E729EC3A6200C89143 /* GalleryView.swift in Sources */,
 				1015857F29F5CA350044224E /* VideoModel.swift in Sources */,
@@ -597,6 +604,7 @@
 				1016A84A29F794DB004E05E3 /* LocationModel.swift in Sources */,
 				107CE3C429EB6C0900D1B93B /* AfricaUITestsLaunchTests.swift in Sources */,
 				10DDB8EC29EC3A9700C89143 /* MainView.swift in Sources */,
+				108443E829FC02D000CD8C38 /* MapAnnotationView.swift in Sources */,
 				10DDB8E429EC3A3900C89143 /* MapView.swift in Sources */,
 				1015851529F468510044224E /* AnimalDetailView.swift in Sources */,
 				10DDB8F129EC526F00C89143 /* Comments.swift in Sources */,
