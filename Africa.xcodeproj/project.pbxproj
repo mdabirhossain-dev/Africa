@@ -86,6 +86,9 @@
 		108443E629FC02D000CD8C38 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108443E529FC02D000CD8C38 /* MapAnnotationView.swift */; };
 		108443E729FC02D000CD8C38 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108443E529FC02D000CD8C38 /* MapAnnotationView.swift */; };
 		108443E829FC02D000CD8C38 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108443E529FC02D000CD8C38 /* MapAnnotationView.swift */; };
+		10D900D229FECE24005E5552 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D900D129FECE24005E5552 /* MotionAnimationView.swift */; };
+		10D900D329FECE24005E5552 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D900D129FECE24005E5552 /* MotionAnimationView.swift */; };
+		10D900D429FECE24005E5552 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D900D129FECE24005E5552 /* MotionAnimationView.swift */; };
 		10DDB8CF29EC07FF00C89143 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 10DDB8CB29EC07FE00C89143 /* videos.json */; };
 		10DDB8D029EC07FF00C89143 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 10DDB8CB29EC07FE00C89143 /* videos.json */; };
 		10DDB8D129EC07FF00C89143 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 10DDB8CB29EC07FE00C89143 /* videos.json */; };
@@ -176,6 +179,7 @@
 		107CE3C129EB6C0900D1B93B /* AfricaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaUITests.swift; sourceTree = "<group>"; };
 		107CE3C329EB6C0900D1B93B /* AfricaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		108443E529FC02D000CD8C38 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		10D900D129FECE24005E5552 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		10DDB8CB29EC07FE00C89143 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		10DDB8CC29EC07FE00C89143 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		10DDB8CD29EC07FF00C89143 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
@@ -342,6 +346,7 @@
 				1015858129F5CAF60044224E /* VideoListItemView.swift */,
 				1015858529F6536D0044224E /* VideoPlayerView.swift */,
 				108443E529FC02D000CD8C38 /* MapAnnotationView.swift */,
+				10D900D129FECE24005E5552 /* MotionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -561,6 +566,7 @@
 				10DDB8E629EC3A6200C89143 /* GalleryView.swift in Sources */,
 				1015858B29F684D70044224E /* VideoPlayerHelper.swift in Sources */,
 				1015858629F6536D0044224E /* VideoPlayerView.swift in Sources */,
+				10D900D229FECE24005E5552 /* MotionAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +595,7 @@
 				10DDB8F029EC526F00C89143 /* Comments.swift in Sources */,
 				1015851C29F48D180044224E /* InsetGalleryView.swift in Sources */,
 				1015851829F48A8B0044224E /* HeadingView.swift in Sources */,
+				10D900D329FECE24005E5552 /* MotionAnimationView.swift in Sources */,
 				10DDB8FE29EC714300C89143 /* CodableBundleExtension.swift in Sources */,
 				1015858729F6536D0044224E /* VideoPlayerView.swift in Sources */,
 			);
@@ -622,6 +629,7 @@
 				10DDB8E829EC3A6200C89143 /* GalleryView.swift in Sources */,
 				1015858D29F684D70044224E /* VideoPlayerHelper.swift in Sources */,
 				1015858829F6536D0044224E /* VideoPlayerView.swift in Sources */,
+				10D900D429FECE24005E5552 /* MotionAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
