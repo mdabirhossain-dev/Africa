@@ -323,8 +323,8 @@
 			isa = PBXGroup;
 			children = (
 				107CE3A629EB6C0800D1B93B /* AfricaApp.swift */,
-				10DDB8E929EC3A9700C89143 /* MainView.swift */,
 				107CE3A829EB6C0800D1B93B /* ContentView.swift */,
+				10DDB8E929EC3A9700C89143 /* MainView.swift */,
 				10DDB8DD29EC399C00C89143 /* VideoListView.swift */,
 				10DDB8E129EC3A3900C89143 /* MapView.swift */,
 				10DDB8E529EC3A6200C89143 /* GalleryView.swift */,
