@@ -86,6 +86,9 @@
 		108443E629FC02D000CD8C38 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108443E529FC02D000CD8C38 /* MapAnnotationView.swift */; };
 		108443E729FC02D000CD8C38 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108443E529FC02D000CD8C38 /* MapAnnotationView.swift */; };
 		108443E829FC02D000CD8C38 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108443E529FC02D000CD8C38 /* MapAnnotationView.swift */; };
+		10B2F00C2A0174520028084C /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2F00B2A0174520028084C /* AnimalGridItemView.swift */; };
+		10B2F00D2A0174520028084C /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2F00B2A0174520028084C /* AnimalGridItemView.swift */; };
+		10B2F00E2A0174520028084C /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2F00B2A0174520028084C /* AnimalGridItemView.swift */; };
 		10D900D229FECE24005E5552 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D900D129FECE24005E5552 /* MotionAnimationView.swift */; };
 		10D900D329FECE24005E5552 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D900D129FECE24005E5552 /* MotionAnimationView.swift */; };
 		10D900D429FECE24005E5552 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D900D129FECE24005E5552 /* MotionAnimationView.swift */; };
@@ -179,6 +182,7 @@
 		107CE3C129EB6C0900D1B93B /* AfricaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaUITests.swift; sourceTree = "<group>"; };
 		107CE3C329EB6C0900D1B93B /* AfricaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		108443E529FC02D000CD8C38 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		10B2F00B2A0174520028084C /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		10D900D129FECE24005E5552 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		10DDB8CB29EC07FE00C89143 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		10DDB8CC29EC07FE00C89143 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
@@ -347,6 +351,7 @@
 				1015858529F6536D0044224E /* VideoPlayerView.swift */,
 				108443E529FC02D000CD8C38 /* MapAnnotationView.swift */,
 				10D900D129FECE24005E5552 /* MotionAnimationView.swift */,
+				10B2F00B2A0174520028084C /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -547,6 +552,7 @@
 				1015851B29F48D180044224E /* InsetGalleryView.swift in Sources */,
 				1016A84829F794DB004E05E3 /* LocationModel.swift in Sources */,
 				107CE3A929EB6C0800D1B93B /* ContentView.swift in Sources */,
+				10B2F00C2A0174520028084C /* AnimalGridItemView.swift in Sources */,
 				10DDB8EA29EC3A9700C89143 /* MainView.swift in Sources */,
 				108443E629FC02D000CD8C38 /* MapAnnotationView.swift in Sources */,
 				10DDB8E229EC3A3900C89143 /* MapView.swift in Sources */,
@@ -592,6 +598,7 @@
 				10DDB8E729EC3A6200C89143 /* GalleryView.swift in Sources */,
 				1015857F29F5CA350044224E /* VideoModel.swift in Sources */,
 				1016A84929F794DB004E05E3 /* LocationModel.swift in Sources */,
+				10B2F00D2A0174520028084C /* AnimalGridItemView.swift in Sources */,
 				10DDB8F029EC526F00C89143 /* Comments.swift in Sources */,
 				1015851C29F48D180044224E /* InsetGalleryView.swift in Sources */,
 				1015851829F48A8B0044224E /* HeadingView.swift in Sources */,
@@ -610,6 +617,7 @@
 				1015851D29F48D180044224E /* InsetGalleryView.swift in Sources */,
 				1016A84A29F794DB004E05E3 /* LocationModel.swift in Sources */,
 				107CE3C429EB6C0900D1B93B /* AfricaUITestsLaunchTests.swift in Sources */,
+				10B2F00E2A0174520028084C /* AnimalGridItemView.swift in Sources */,
 				10DDB8EC29EC3A9700C89143 /* MainView.swift in Sources */,
 				108443E829FC02D000CD8C38 /* MapAnnotationView.swift in Sources */,
 				10DDB8E429EC3A3900C89143 /* MapView.swift in Sources */,
