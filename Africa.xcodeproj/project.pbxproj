@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -93,7 +93,7 @@
 		10B2F00D2A0174520028084C /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2F00B2A0174520028084C /* AnimalGridItemView.swift */; };
 		10B2F00E2A0174520028084C /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2F00B2A0174520028084C /* AnimalGridItemView.swift */; };
 		10B2F0142A01DF590028084C /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B2F0132A01DF590028084C /* Stickers.xcassets */; };
-		10B2F0182A01DF590028084C /* Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 10B2F0112A01DF580028084C /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		10B2F0182A01DF590028084C /* Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 10B2F0112A01DF580028084C /* Stickers.appex */; platformFilters = (ios, macos, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		10B2F01F2A01E3F40028084C /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2F01E2A01E3F40028084C /* CreditsView.swift */; };
 		10B2F0202A01E3F40028084C /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2F01E2A01E3F40028084C /* CreditsView.swift */; };
 		10B2F0212A01E3F40028084C /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2F01E2A01E3F40028084C /* CreditsView.swift */; };
@@ -534,7 +534,7 @@
 				};
 			};
 			buildConfigurationList = 107CE39E29EB6C0800D1B93B /* Build configuration list for PBXProject "Africa" */;
-			compatibilityVersion = "Xcode 12.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -750,6 +750,10 @@
 		};
 		10B2F0172A01DF590028084C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				ios,
+				macos,
+			);
 			target = 10B2F0102A01DF580028084C /* Stickers */;
 			targetProxy = 10B2F0162A01DF590028084C /* PBXContainerItemProxy */;
 		};
@@ -896,12 +900,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mdabirhossain.Africa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -933,12 +937,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mdabirhossain.Africa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
